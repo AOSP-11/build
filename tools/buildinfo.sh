@@ -23,6 +23,7 @@ echo "ro.build.user=$BUILD_USERNAME"
 echo "ro.build.host=$BUILD_HOSTNAME"
 echo "ro.build.tags=$BUILD_VERSION_TAGS"
 echo "ro.build.flavor=$TARGET_BUILD_FLAVOR"
+echo "ro.build.fingerprint=$BUILD_FINGERPRINT"
 if [ -n "$BOARD_BUILD_SYSTEM_ROOT_IMAGE" ] ; then
   echo "ro.build.system_root_image=$BOARD_BUILD_SYSTEM_ROOT_IMAGE"
 fi
